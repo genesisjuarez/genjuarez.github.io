@@ -1,0 +1,754 @@
+/* Main Page */
+
+html, body {
+	height:100%;
+	width: 100%;
+	background:#FFC0B5;
+	font-family: Helvetica, sans-serif;
+	line-height: 1.8em;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.genesisname {
+	color: #FFC0B5;
+	font-size: 30pt;
+
+}
+
+
+#headercen{
+	position: relative;
+	left:1%;
+}
+
+#name {
+	font-size:100px;
+	font-weight:bold;
+	position: relative;
+	top:0px;
+	left: 70px;
+}
+
+.other {
+	position: static;
+	color:black;
+	margin-left: 0px;
+	font-size: 20px;
+	color:grey;
+}
+
+#container-1 {
+	background-color:#FFFFFF;
+	color:#E09494;
+	margin:0;
+	height: 300px;
+}
+
+#container-2 {
+	height: 500px;
+	background-color:#FFC5C5;
+	display: flex;
+	justify-content: center;
+}
+
+.ubuttons {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	position: relative;
+	top: 80px;
+	left: -3%;
+}
+.ibutton {
+	width:250px;
+	height: 250px;
+	background-color: white;
+	color:#FFC0B5;
+	border-radius: 50%;
+	font-size: 24px;
+	margin:25px;
+	border:0px;
+	padding: 15px;
+}
+
+.otti1{
+	position: relative;
+	left:-360px;
+}
+.otti3 {
+	position: relative;
+	left:360px;
+}
+
+
+.button {
+	width: 250px;
+	height: 250px;
+	background-color:#FFFFFF;
+	color:pink;
+	border: 2px;
+	padding: 15px  32px;
+	font-size: 26px;
+	border-radius: 50%;
+	position: relative;
+	left: 400px;
+	top: 75px;
+	padding: 25px;
+	margin:30px;
+	cursor: pointer;
+}
+
+
+
+a {
+	text-decoration: none;
+	color:#E09494;
+
+}
+
+
+#flower {
+	height: 600px;
+	width: 100px;
+	position: absolute;
+	bottom: 30%;
+	left: 15%;
+}
+
+#flower2 {
+	height: 600px;
+	width: 100px;
+	position: absolute;
+	bottom: 30%;
+	right: 15%;
+}
+
+
+
+
+
+
+/* Face 2 */
+
+
+
+
+
+
+
+/* Face 3 */
+.all {
+	background-color:#FFC5C5;
+}
+
+
+.item {
+	height: 120px;
+	width: 120px;
+	margin: 10px;
+	margin-top: 10px;
+	margin: 30px;
+}
+
+
+
+.row {
+	width: 100%;
+	height: 120px;
+	margin: 0px;
+	padding: 120px;
+	position: relative;
+	left: 50px;
+}
+
+.item {
+	position: relative;
+	left:65px;
+	top:-30px;
+	background-color:#FFC0B5;
+	display: inline-block;
+	opacity: 0.7;
+	overflow: hidden;
+	height:300px;
+	width: 300px;
+	margin: 10px;
+	margin-top: 10px;
+}
+
+}
+
+
+.item {
+
+	margin: 10px;
+	margin-top: 10px;
+}
+
+
+
+.item:hover {
+	opacity: 1;
+	transform: scale(1.2);
+	border-radius: 50%;
+	transition-duration: 1s;
+}
+
+
+
+.artall {
+	max-width: 1024px;
+}
+
+.butt1 {
+	font-size: 12pt;
+	font-color: pink;
+	font-family: helvetica sans-serif;
+	font-style: thin;
+}
+
+.header {
+  width: 100%;
+  height: 270px;
+  padding: 60px;
+  text-align: center;
+  background: white;
+  color: pink;
+  font-size: 26px;
+  position: relative;
+  margin-left: -125px;
+}
+
+
+/* EDUCATION */ 
+
+#all {
+	height: 900px;
+}
+
+.headerEd {
+  width: 100%;
+  height: 190px;
+  padding: 60px;
+  text-align: center;
+  background: white;
+  color: pink;
+  font-size: 26px;
+  position: relative;
+  margin-left: -125px;
+}
+
+#container-4 {
+	max-width: 800px;
+	height:400px;
+}
+
+#cal {
+	position: relative;
+	left: 34%;
+}
+
+
+
+#container-5 {
+	position: relative;
+	bottom: 400px;
+	max-width: 800px;
+}
+
+#home {
+	position: relative;
+	bottom: 500px;
+}
+
+.sbutt {
+	width: 200px;
+	height: 200px;
+	background-color:#FFFFFF;
+	color:pink;
+	border: 2px;
+	padding: 15px  32px;
+	font-size: 26px;
+	border-radius: 50%;
+	padding: 25px;
+	margin:30px;
+	cursor: pointer;
+	position: relative;
+	bottom: 940px;
+	left: 400px;
+}
+
+
+
+
+
+
+
+.headerIm {
+  width: 1524px;
+  height: 190px;
+  padding: 60px;
+  text-align: center;
+  background: white;
+  color: pink;
+  font-size: 26px;
+  position: relative;
+  margin-left: -125px;
+}
+
+
+
+
+/* Meet Me */
+
+ .meImg {
+ 	position: relative;
+ 	left: 170px;
+ 	bottom: 300px
+ }
+
+
+#button {
+	border-radius: 50%;
+	height: 50px;
+	width: 50px;
+}
+
+
+#Meet {
+	color:black;
+	font-size: 80pt;
+	position: relative;
+	left: 65pt;
+	top: 15pt;
+}
+
+#me {
+	color: black;
+	font-size: 80pt;
+	position: relative;
+	left: 160pt;
+	top: -390px;
+
+}
+
+
+.burger {
+	height: 15px;
+	width: 15px;
+	position: relative;
+	top: -280px;
+	left: 340px;
+}
+
+.burger {
+    animation-name: bounce;
+    animation-duration: 0.5s;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: cubic-bezier(0.42, 0, 0.7, 0.5);
+
+}
+
+@keyframes bounce {  
+    from{transform: translateY(-200px)}
+    to{transform: translateY(30px)}
+ }
+
+
+ #gen1 {
+ 	border-radius: 50%; 
+ 	position: relative;
+ 	left: 250px;
+ }
+
+  #gen2 {
+ 	border-radius: 50%;
+ 	position: relative;
+ 	left: -55px;
+ }
+
+
+  #gen3 {
+ 	border-radius: 50%;
+ 	position: relative;
+ 	left: -350px;
+ 	
+ }
+
+  #gen4 {
+ 	border-radius: 50%;
+ 	position: relative;
+ 	left: -650px;
+
+ }
+
+.juarez {
+	height: 270px;
+	width: 270px;
+}
+
+
+.row2 {
+	width: 100%;
+	height: 120px;
+	margin: 0px;
+	padding: 120px;
+	position: relative;
+	left: 230px;
+	top: -830px;
+}
+
+ .juarez {
+	position: relative;
+	margin: 10px;
+	background-color: #FFC0B5;
+	display: inline-block;
+	opacity: 0.8;
+	overflow: hidden;
+}
+
+
+
+
+.juarez:hover {
+	opacity: 1;
+	transform: scale(1.2);
+	border-radius: 50%;
+	transition-duration: 1s;
+}
+ 
+
+#juarez {
+    animation-name: move;
+    animation-duration: 2.7s;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: cubic-bezier(0.42, 0, 0.7, 0.9);
+
+}
+
+@keyframes move {  
+    from{transform: translateX(0px)}
+    to{transform: translateX(-630px)}
+ }
+
+
+ #juar {
+    animation-name: movee;
+    animation-duration: 2.7s;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: cubic-bezier(0.42, 0, 0.7, 0.9);
+
+}
+
+@keyframes movee {  
+    from{transform: translateX(0px)}
+    to{transform: translateX(630px)}
+ }
+
+.ibutt {
+	width:1200px;
+	height:60px;
+	background-color: #FFF;
+	color: #E09494;
+	font-size: 26px;
+	position: relative;
+	left:0px;
+	top:50px;
+	cursor:pointer;
+	border: 0px;
+
+}
+
+.buten1 {
+	width: 700px;
+	height:60px;
+	background-color:#FFFFFF;
+	color:#E09494;
+	font-size: 26px;
+	position: relative;
+	left:818px;
+	top:-690px;
+	cursor: pointer;
+	border: 0px;
+
+}
+
+#juare {
+	opacity: 0.9;
+}
+
+
+
+.row4 {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+
+} 
+
+.col3 {
+	position: relative;
+	left: 210px;
+	margin-left: 25px;
+
+}
+
+#pp {
+	width: 400px;
+	height: 300px;
+	font-family: helvetica;
+	font-size: 15pt;
+	color: #5F5C5C;
+	margin: 35px;
+	padding: 35px;
+	text-align: center;
+	border-color:white;
+	position: relative;
+	top: -620px;
+	border: 4pt dashed;
+	border-color: white;
+	background-position: relative;
+}
+
+#dogg {
+	width: 400px;
+	height: 300px;
+	font-family: helvetica;
+	font-size: 15pt;
+	color: #5F5C5C;
+	margin: 35px;
+	padding: 35px;
+	text-align: center;
+	border-color:white;
+	position: relative;
+	top: -620px;
+	border: 4pt dashed;
+	border-color: white;
+	background-position: relative;
+
+}
+
+
+#movie {
+	width: 400px;
+	height: 300px;
+	font-family: helvetica;
+	font-size: 15pt;
+	color: #5F5C5C;
+	margin: 35px;
+	padding: 35px;
+	text-align: center;
+	border-color:white;
+	position: relative;
+	top: -620px;
+	border:4pt dashed;
+	border-color: white;
+	background-position: relative;
+
+}
+
+
+.box {
+	position: relative;
+	top: -40px;
+}
+
+
+
+.lol {
+	height: 5px;
+	width: 5px;
+	position: relative;
+	top: -320px;
+	left: 630px;
+}
+
+.lol {
+    animation-name: bog;
+    animation-duration: 0.9s;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: cubic-bezier(0.42, 0, 0.7, 0.5);
+
+}
+
+
+
+ .sul {
+	height: 5px;
+	width: 5px;
+	position: relative;
+	top: -480px;
+	left: 630px;
+}
+
+.sul {
+    animation-name: dog;
+    animation-duration: 0.9s;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: cubic-bezier(0.42, 0, 0.7, 0.9);
+
+}
+
+@keyframes dog {  
+    from{transform: rotate(0deg)}
+    to{transform: rotate(0deg)}
+ }
+
+ .char {
+	height: 50px;
+	width: 50px;
+	position: relative;
+	top: -390px;
+	left: 740px;
+}
+
+.char {
+    animation-name: fog;
+    animation-duration: 0.9s;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: cubic-bezier(0.42, 0, 0.7, 0.5);
+
+}
+
+ .calc {
+	height: 5px;
+	width: 5px;
+	position: relative;
+	top: -470px;
+	left: 970px;
+}
+
+.calc {
+    animation-name: spa;
+    animation-duration:2s;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: cubic-bezier(0.42, 0, 0.7, 1.5);
+
+}
+
+.seal {
+	display: flex; 
+	justify-content:space-around;
+	margin: 15px;
+	padding: 100px;
+	width: 600px;
+	background-color:#FFC0B5;
+	position: relative;
+	left:300px;
+	opacity: 0.8;
+}
+
+.seal:hover {
+	opacity: 1;
+	cursor: pointer;
+
+}
+
+
+
+
+#first {
+	background-color: white;
+	height:800px;
+
+}
+#second {
+	background-color:#FFC0B5;
+	height: 800px;
+}
+
+h2 {
+	font-family: helvetica;
+	font-size: 29pt;
+	position: relative;
+	top:55px;
+	left:25px;
+}
+.sss {
+	color:pink;
+	font-style: bold;
+	font-family: arial;
+	color: grey;
+	display: flex;
+	justify-content: center;
+}
+
+.ccc {
+	color:white;
+	font-style: bold;
+	font-family: arial;
+	color: grey;
+	display: flex;
+	justify-content: center;
+}
+
+#S1, #S2 {
+	font-family: arial serif;
+	font-size: 18pt;
+	text-align: center;
+	color: grey;
+	display: flex;
+	justify-content: center;
+	position: relative;
+	top:-340px;
+}
+
+
+
+#S2 {
+	font-family:arial serif;
+	font-size: 18t;
+	text-align: center;
+	color:grey;
+	display: flex;
+	justify-content: center;
+}
+
+.palms {
+	position: relative;
+	top:343px;
+}
+.Road {
+	position: relative;
+	left:500px;
+	top:370px;
+}
+
+
+#cal {
+	position: relative;
+	left: 250px;
+	bottom: -211px;
+
+}
+
+
+.seal2 {
+	position: relative;
+	left:500px;
+	top:-220px;
+	text-align: center;
+
+}
+
+.learnmore {
+	font-family: arial;
+	font-size: 15pt;
+	color:grey;
+
+}
